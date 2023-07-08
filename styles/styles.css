@@ -200,7 +200,7 @@
 .resume-details {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 25px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 15px;
   margin-bottom: 40px;
@@ -213,6 +213,9 @@
   text-align: center;
 
   margin-top: 40px;
+}
+.resume-text-gap {
+  margin-bottom: 6px;
 }
 .section-title {
   font-size: 30px;
@@ -258,6 +261,7 @@
 }
 .submit-btn {
   background-color: #fd6e0a;
+  border: 1px solid #fd6e0a;
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -276,10 +280,10 @@
 
 /* Footer section styles */
 .footer-area {
-  background-color: #fd6e0a;
+  background-color: #ffc49a;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
 .footer-text {
-  color: #fff;
+  color: #000;
 }

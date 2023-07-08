@@ -115,11 +115,15 @@
   font-size: 25px;
 }
 .title-text {
+  font-size: 25px;
+}
+.developer-name {
   font-size: 50px;
   font-weight: 800;
+  margin-bottom: 25px;
 }
 .text-gap {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .banner-description {
   padding: 0px 50px;
@@ -215,4 +219,67 @@
   font-weight: 800;
   text-align: center;
   margin-bottom: 30px;
+}
+
+/* Contact me section styles */
+.contact-me {
+  background-color: #fff8f3;
+}
+.social-contact-contact-form {
+  margin: 120px 230px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 120px 0px;
+}
+.social-media-btn {
+  color: #fd6e0a;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.contact-form-area {
+  margin-top: 30px;
+}
+.input-field {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.message-field {
+  border: none;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+.submit-btn {
+  background-color: #fd6e0a;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.submit-btn:hover {
+  border: 1px solid #3c01df;
+  color: #fff;
+  background-color: #470aee;
+  cursor: pointer;
+}
+
+/* Footer section styles */
+.footer-area {
+  background-color: #fd6e0a;
+  text-align: center;
+  padding: 20px;
+}
+.footer-text {
+  color: #fff;
 }

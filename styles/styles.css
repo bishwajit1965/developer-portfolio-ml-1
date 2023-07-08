@@ -6,7 +6,6 @@
 .header-area {
   background-color: #fff8f3;
   display: flex;
-  min-height: 400px;
 }
 .image-top-nav-bar-wrapper {
   display: flex;
@@ -51,6 +50,7 @@
   min-width: 160px;
   font-size: 17px;
   cursor: pointer;
+  margin-right: 25px;
 }
 .btn-primary a {
   text-decoration: none;
@@ -61,15 +61,36 @@
   padding: 15px 20px;
   cursor: pointer;
 }
+.btn-primary:hover {
+  background-color: #3c01df;
+  cursor: pointer;
+  border: 1px solid #3c01df;
+  padding: 15px 20px;
+  border-radius: 5px;
+  min-width: 160px;
+  font-size: 17px;
+  color: #fff;
+}
+
 .btn-contact {
   border: 1px solid #fd6e0a;
   padding: 15px 20px;
   border-radius: 5px;
   min-width: 160px;
   font-size: 17px;
-  margin-left: 25px;
   color: #fd6e0a;
   background-color: #fff;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  border: 1px solid #3c01df;
+  padding: 15px 20px;
+  border-radius: 5px;
+  min-width: 160px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #470aee;
   cursor: pointer;
 }
 .nav-title-left {
@@ -111,4 +132,54 @@
 }
 .banner-image img {
   float: right;
+}
+
+/* About me section styles */
+.detail-description {
+  text-align: center;
+  margin: 120px 230px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  box-shadow: 1px 2px 1px 1px #ddd;
+}
+.about-me-top-description {
+  padding: 136px 156px;
+}
+.about-me-contact-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.text-font-weight {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* What I do section styles */
+.what-i-do-section-details {
+  margin: 120px 230px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.what-i-do-description {
+  padding: 0px 156px;
+  text-align: center;
+}
+.what-i-do-details {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-box {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.course-img {
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+.text-size {
+  font-size: 13px;
 }

@@ -145,10 +145,9 @@
   background-color: #fff8f3;
   border-radius: 10px;
   box-shadow: 1px 2px 1px 1px #ddd;
-}
-.about-me-top-description {
   padding: 136px 156px;
 }
+
 .about-me-contact-details {
   display: flex;
   justify-content: space-between;
@@ -211,7 +210,6 @@
 }
 .download-cv-button {
   text-align: center;
-
   margin-top: 40px;
 }
 .resume-text-gap {
@@ -286,4 +284,76 @@
 }
 .footer-text {
   color: #000;
+}
+
+.hide-section {
+  display: none;
+}
+
+/*Responsive CSS styles
+======================== */
+/* About me */
+@media only screen and (max-width: 640px) {
+  .about-me-top-description {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .about-me-contact-details {
+    margin-top: 0px;
+  }
+  .about-me-box {
+    padding: 10px;
+  }
+  .detail-description {
+    margin: 0px;
+    padding: 10px;
+  }
+  .about-me-contact-details {
+    display: block;
+  }
+}
+/* What i do section */
+@media only screen and (max-width: 640px) {
+  .what-i-do-section-details {
+    margin: 0px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .what-i-do-description {
+    width: 100%;
+    /* text-align: left; */
+    padding: 10px;
+    text-align: center;
+  }
+  .what-i-do-details {
+    display: grid;
+    justify-content: space-between;
+  }
+}
+
+/* My resume section */
+@media only screen and (max-width: 640px) {
+  .my-resume-section {
+    margin: 0px;
+  }
+  .resume-details {
+    display: grid;
+    gap: 25px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+/* Contact me section */
+@media only screen and (max-width: 640px) {
+  .contact-me {
+    margin-top: 20px;
+  }
+  .social-contact-contact-form {
+    margin: 0px;
+    display: grid;
+    gap: 25px;
+    padding: 10px;
+  }
 }

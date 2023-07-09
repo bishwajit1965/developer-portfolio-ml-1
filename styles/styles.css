@@ -5,11 +5,10 @@
 }
 .header-area {
   background-color: #fff8f3;
-  display: flex;
 }
 .image-top-nav-bar-wrapper {
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .developer-image img {
   width: 90%;
@@ -280,18 +279,77 @@
 .footer-area {
   background-color: #ffc49a;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 .footer-text {
   color: #000;
 }
-
 .hide-section {
   display: none;
 }
 
 /*Responsive CSS styles
 ======================== */
+
+/* Header section */
+@media only screen and (max-width: 640px) {
+  .banner-area {
+    display: grid;
+    margin-top: 130px;
+  }
+  .banner-description {
+    width: 50%;
+  }
+  .banner-area {
+    width: 100%;
+  }
+  .developer-image img {
+    padding: 30px;
+    height: auto;
+  }
+  .slogan-title {
+    font-size: 20px;
+  }
+  .nav-title-left {
+    margin-left: 0px;
+  }
+  .nav-bar {
+    display: grid;
+    margin-left: 50px;
+  }
+  .btn-primary {
+    margin-bottom: 50px;
+  }
+  .nav-bar > ul {
+    display: grid;
+    padding: 0px;
+  }
+  .developer-name {
+    font-size: 20px;
+    font-weight: 0;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 100%;
+    height: auto;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .text-gap {
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  .btn-primary,
+  .btn-contact {
+    display: block;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding: 10px 10px;
+  }
+}
 /* About me */
 @media only screen and (max-width: 640px) {
   .about-me-top-description {
@@ -322,7 +380,6 @@
   }
   .what-i-do-description {
     width: 100%;
-    /* text-align: left; */
     padding: 10px;
     text-align: center;
   }
@@ -344,6 +401,9 @@
     padding: 10px;
     margin-bottom: 10px;
   }
+  .download-cv-button {
+    padding: 10px;
+  }
 }
 /* Contact me section */
 @media only screen and (max-width: 640px) {
@@ -355,5 +415,13 @@
     display: grid;
     gap: 25px;
     padding: 10px;
+  }
+  .social-media-btn {
+    color: #fd6e0a;
+    font-size: 25px;
+    margin-right: 0px;
+  }
+  .contact-form-area {
+    width: 95%;
   }
 }
